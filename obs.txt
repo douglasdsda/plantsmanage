@@ -1,0 +1,42 @@
+expo init plantmanager
+
+yarn start // start proj
+yarn android // start android
+yarn ios // start ios
+yarn web // start web
+aperta d // abrir no navegador
+
+
+expo install @expo/vector-icons
+expo install expo-font @expo-google-fonts/jost
+expo install expo-app-loading
+expo install expo-notifications
+
+yarn add @react-navigation/native
+
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+yarn add @react-navigation/stack
+yarn add react-native-iphone-x-helper
+
+yarn add axios
+
+npm install -g json-server
+
+json-server ./src/services/server.json -p 3333 --delay 700
+json-server ./src/services/server.json --host 192.168.100.9 -p 3333 --delay 700
+
+adb reverse tcp:3333 tcp:3333
+
+expo install react-native-svg
+
+lottieFiles
+
+expo install lottie-react-native
+
+expo install @react-native-async-storage/async-storage
+
+expo install @react-native-community/datetimepicker
+yarn add date-fns
+
+yarn add @react-navigation/bottom-tabs
